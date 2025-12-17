@@ -1,6 +1,6 @@
 {
     "name": "rbxproducts",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Surgical CLI tool for batch managing Roblox Gamepasses and Developer Products.",
     "main": "./src/cli.js",
     "type": "module",
