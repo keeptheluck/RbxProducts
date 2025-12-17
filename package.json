@@ -2,7 +2,7 @@
     "name": "rbxproducts",
     "version": "1.0.0",
     "description": "Surgical CLI tool for batch managing Roblox Gamepasses and Developer Products.",
-    "main": "src/index.js",
+    "main": "./src/cli.js",
     "type": "module",
     "bin": {
         "rbxproducts": "./src/cli.js"
@@ -14,6 +14,17 @@
         "developer-products",
         "open-cloud"
     ],
-    "author": "YourName",
+    "files": [
+        "src/**/*",
+        "README.md",
+        "LICENSE"
+    ],
+    "dependencies": {
+        "axios": "^1.7.0",
+        "commander": "^12.1.0",
+        "dotenv": "^16.4.0",
+        "inquirer": "^12.11.1"
+    },
+    "author": "keeptheluck",
     "license": "MIT"
 }
