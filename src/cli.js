@@ -528,8 +528,8 @@ program
 
             // Loop through the table we just built to link the IDs
             luaContent += "-- Setup ID-based references\n";
-            luaContent += "for _, item in pairs(Products.Gamepasses) do Products.GamepassById[item.id] = item end\n";
-            luaContent += "for _, item in pairs(Products.DevProducts) do Products.DevProductById[item.id] = item end\n\n";
+            luaContent += "for _, item in pairs(Products.Gamepasses) do Products.GamepassById[item.Id] = item end\n";
+            luaContent += "for _, item in pairs(Products.DevProducts) do Products.DevProductById[item.Id] = item end\n\n";
 
             luaContent += "return Products";
 
